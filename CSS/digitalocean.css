@@ -1,0 +1,125 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #F3F5F9;
+}
+
+#section1 {
+    display: flex;
+    background-image: url(../Images/60daad4d5c47d0654c7a873b_bg-hero-do-v4.svg);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 800px;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-left: 60px;
+    list-style: square;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+#div3 {
+    border: 1px solid white;
+    height: 550px;
+    width: 500px;
+    margin-top: 120px;
+    margin-left: 50px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+#head1 {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #031b4e;
+}
+
+#email {
+    height:50px;
+    width: 300px;
+    box-shadow: black;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+#email:focus { 
+    outline: none;
+    border: 1px solid turquoise;
+}
+
+#button1 {
+    height:50px;
+    width: 307px;
+    border-radius: 5px;
+    background-color: #15CD72;
+    border: none;
+}
+
+#div4 {
+    width: 100px;
+    height: 0;
+    background-color: black;
+    border: 1px solid black;
+    margin-top: 25px;
+}
+
+#button2 {
+    height:50px;
+    width: 152px;
+    border-radius: 5px;
+    background-color: #F2F8FF;
+    border: 1px solid turquoise;
+}
+
+#section2 {
+    display: flex;
+    margin-top: 100px;
+    background-color: #F3F5F9;
+}
+
+#div5 {
+    width: 50%;
+}
+
+#head2 {
+    font-weight: bolder;
+    font-size: 33px;
+    color: #031b4e;
+    margin-top:30px;
+}
+
+#img1 {
+    margin-top: 0;
+}
+
+#div7 {
+    border: 1px solid gray;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+    #section1 {
+        flex-direction: column;
+    }
+
+    #section2 {
+        flex-direction: column;
+    }
+
+    #section3 {
+        flex-direction: column;
+    }
+
+    #div8 {
+        flex-direction: column;
+    }
+}

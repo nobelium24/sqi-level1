@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+#section1 {
+height: 400px;
+width: 1100px;
+margin: auto;
+
+}
+
+#div1 {
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+}
+
+#section2 {
+    
+    height: 400px;
+    width: 810px;
+    margin: auto;
+}
+
+img {
+    height: 220px;
+}

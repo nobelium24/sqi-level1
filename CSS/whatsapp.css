@@ -1,0 +1,29 @@
+.nav-tabs .nav-item {
+    width: 29%;
+    text-align: center;
+}
+
+.nav-tabs .nav-item .nav-link {
+    width: 100%;
+}
+
+.nav-tabs .nav-item .active {
+    border-bottom: 3px solid white;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 100%;
+    background-color: #131c21;
+    
+}
+
+.nav-tabs>#li1 {
+    width: 12%;
+    text-align: center;
+}
+
+.img1 {
+    width: 20px;
+    height: 30px;
+    border-radius: 50px;
+}

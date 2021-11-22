@@ -1,0 +1,112 @@
+body{
+background-color: #212121;
+color: whitesmoke;
+font-family: sans-serif;
+margin: 0;
+padding: o;
+}
+
+html{
+margin: 0;
+padding: 0;
+
+}
+
+nav{
+    display: flex;
+    height: 67px;
+    color: #212121;
+    border: 1px solid red;
+    
+    
+}
+
+#div1 {
+    padding-top: 12px;
+}
+
+#div2 {
+    background-color: whitesmoke;
+    width:20px ;
+    height: 1px;
+    margin-top: 6px;
+    margin-left: 18px;
+    display: flex;
+}
+
+#div3 {
+    display: flex;
+}
+
+ul {
+    display: flex;
+}
+
+#divli {
+    color: whitesmoke;
+    list-style: none;
+    margin-bottom: 20px;
+    font-family: roboto;
+    display: flex;
+    
+}
+ #li1{
+padding-top: 5p;
+color: whitesmoke;
+list-style: none;
+margin-bottom: 20px;
+font-family: roboto;
+display: flex;
+ }
+
+ input {
+    margin-left: 25px;
+    background-color: #181818;
+    border: 1px solid whitesmoke;
+    height: 25px;
+    width: 600px;
+}
+
+#div4{
+        display: flex;
+        justify-content: space-around;
+        height: 67px;
+        color: #212121;
+        border: 1px solid red;
+}
+
+#ul1 {
+    padding-left: 200px;
+}
+
+a {
+       text-decoration: none;
+    display: flex;
+    margin-left: 15px;
+}
+
+button {
+    width:100px;
+    height:30px;
+    background-color: #3d3d3d;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#divli2 {
+    color: whitesmoke;
+    list-style: none;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-right: 0;
+    
+}
+
+#link1 {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+

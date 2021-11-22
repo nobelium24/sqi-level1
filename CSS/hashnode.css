@@ -1,0 +1,44 @@
+#section1 {
+   height: 100vh;
+}
+
+#section2 {
+    
+    
+}
+
+#button1 {
+    width: 150px;
+    height: 40px;
+    margin-left: 32px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: #2962FF;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+    font-size: 15px;
+    /* font-weight: 500; */
+    color: gray;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+li:hover {
+    border-radius: 3px;
+    background-color: white;
+    height: 25px;
+}
+
+#sun {
+    margin-left: 90px;
+    font-size: 35px;
+    color: gray;
+    margin-bottom: 30px;
+}

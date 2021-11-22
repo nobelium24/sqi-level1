@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stutern</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+
+            background-size: cover;
+            display: flex;
+            align-content: center;
+            /* background-color: rgba(255, 255, 255, 0.7); */
+            background-image: url(../Images/stutern.jpg);
+            background-size: cover;
+            justify-content: center;
+            font-family: 'Merriweather Sans', sans-serif;
+            ;
+        }
+
+        #div1 {
+            margin-top: 60px;
+            background-color: #ffffff;
+            width: 300px;
+            height: 500px;
+            border: 1px solid white;
+            border-radius: 5px;
+            margin: auto;
+            margin-top: 80px;
+        }
+
+        #div3 {
+            width: 25px;
+            height: 25px;
+            background-color: #2ec4b6;
+            color: white;
+            text-align: center;
+            margin-right: 5px;
+            border-radius: 5px;
+        }
+
+        #div2 {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #2ec4b6;
+        }
+
+        .inn {
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.664);
+        }
+
+        #input1 {
+            width: 270px;
+            height: 30px;
+            margin-left: 10px;
+            min-width: fit-content;
+            border: 1px solid lightgray;
+            border-radius: 3px;
+        }
+
+        #button1 {
+            width: 270px;
+            height: 30px;
+            margin-top: 20px;
+            margin-left: 15px;
+            background-color: #2ec4b6;
+            color: #ffffff;
+            border: 1px solid transparent;
+            border-radius: 3px;
+        }
+
+        #button1:hover {
+            background-color: teal;
+        }
+
+        #button2 {
+            width: 270px;
+            height: 30px;
+            margin-top: 20px;
+            margin-left: 15px;
+            background-color:#ffffff ;
+            color:#2ec4b6;
+            border: 1px solid #2ec4b6;
+            border-radius: 3px;
+        }
+
+        #button2:hover {
+            border: 2px solid #2ec4b6;
+        }
+
+        a {
+            color: #2ec4b6;
+            margin-left: 50px;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="inn">
+        <div id="div1" style="border-top: 3px solid #2ec4b6;">
+            <div id="div2">
+                <div id="div3">S</div>STUTERN
+            </div>
+            <p style="margin-left: 125px;">LOGIN</p>
+            <p style="margin-left: 10px; margin-bottom: 0;">Email</p>
+            <input type="email" placeholder="eg@exampnle.provider.com" id="input1">
+            <p style="margin-left: 10px; margin-bottom: 0;">Password</p>
+            <input type="password" placeholder="******" id="input1" style="margin-bottom: 20px;">
+            <input type="checkbox" style="margin-left: 10px;"> <span>Remember Me</span>
+            <button id="button1">Sign in</button>
+            <button id="button2">Create an account</button>
+            <br>
+            <br>
+            <a href="#" style="margin-left: 60px;">Forgot your password?</a>
+            <br>
+            <br>
+            <a href="#">Didn't receive confirmation</a>
+            <a href="#" style="margin-left: 100px;">instructions?</a>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
