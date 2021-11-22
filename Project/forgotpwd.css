@@ -1,0 +1,161 @@
+/* body {
+    font-family: 'ZohoPuvi', Georgia;
+    margin: 0px;
+} */
+
+button:hover {
+    color: #fff!important;
+}
+
+.bg {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: url(bg.svg) transparent;
+    background-size: auto 100%;
+    z-index: -1;
+}
+
+.zohologo {
+    display: block;
+    height: 30px;
+    width: 80px;
+    margin-bottom: 20px;
+    background: url(../img/Zoho_logo.png) transparent;
+    background-size: auto 100%;
+}
+
+.container {
+    box-shadow: 0px 2px 30px #ccc6;
+    margin: auto;
+    background: #fff;
+    width: 420px;
+    height: auto;
+    min-height: 450px;
+    box-sizing: border-box;
+    padding: 40px 40px;
+    border-radius: 2px;
+}
+
+footer {
+    width: 100%;
+    display: inline-block;
+    margin: 30px auto;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+}
+
+.head_info {
+    font-size: 16px;
+    margin: 10px 0px 0px 0px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000000e6;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+    margin-block-end: 1em;
+}
+
+.textbox {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: block;
+    width: 100%;
+    height: 44px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    text-indent: 12px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    padding-right: 12px;
+    transition: all .2s ease-in-out;
+    background: #F9F9F9;
+    border: 1px solid #DDDDDD;
+}
+
+.blue {
+    background-color: #159AFF;
+    color: #fff;
+}
+
+.btn {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    height: 44px;
+    border-radius: 4px;
+    letter-spacing: .5;
+    font-size: 14px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    margin: auto;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    transition: width .2s ease-in-out;
+}
+
+button {
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: pointer;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 6px;
+    border-style: outset;
+    background-color: transparent;
+    border-image: initial;
+}
+
+.headtitle {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 600px) {
+    .bg {
+        display: none;
+    }
+    body {
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    }
+    .container {
+        box-shadow: none;
+        width: 100%;
+        padding: 0px 30px;
+        height: auto;
+        border-right: none;
+        padding-bottom: 40px;
+    }
+    .textbox {
+        transition: unset;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid #F4F6F8;
+        border-radius: 0px;
+    }
+}

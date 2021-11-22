@@ -1,0 +1,904 @@
+// first two navs
+#section1 {
+    height: 20px;
+}
+
+#p1 {
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 13px;
+}
+
+#p1:hover {
+    color: #03A9F5;
+}
+
+#div2 {
+    min-width: fit-content;
+    display: none;
+}
+
+#p1:hover+#div2 {
+    display: grid;
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+    background-color: white;
+    min-width: fit-content;
+    position: absolute;
+    border: 1px solid lightgray;
+    top: 29px;
+    z-index: 1;
+}
+
+#img1 {
+    height: 30px;
+}
+
+@media (max-width:700px) {
+    #nav1 {
+        display: none;
+    }
+    #div3 {
+        min-height: 60px;
+    }
+}
+
+#div3 {
+    height: 45px;
+    background-color: black;
+    text-align: center;
+}
+
+// #div4 {
+//     position: relative;
+//     display: inline-block;
+// }
+// #p2 {
+//     font-size: 17px;
+// }
+// #p2content {
+//     display: none;
+//     list-style: none;
+//     background-color: white;
+//     position: absolute;
+//     border-radius: 3px;
+//     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+//     border: none;
+//     min-width: fit-content;
+//     z-index: 1;
+//     text-align: left;
+// }
+// #p2content li {
+//     display: block;
+//     color: black;
+//     padding: 12px 16px;
+//     text-decoration: none;
+//     text-align: left;
+//     font-size: 15px;
+//     font-weight: bold;
+// }
+// #p2content li:hover {
+//     background-color: lightblue;
+//     width: fit-content;
+//     z-index: -1;
+//     text-align: center;
+//     font-size: 15px;
+//     font-weight: bold;
+// }
+// #div4:hover #p2content {
+//     display: block;
+//     right: -30px;
+//     width: fit-content;
+// }
+#div4 {
+    position: relative;
+    display: inline-block;
+}
+
+#p2 {
+    font-size: 17px;
+    margin-top: 14px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+#p2content {
+    display: none;
+    list-style: none;
+    background-color: white;
+    position: absolute;
+    border-radius: 3px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border: none;
+    min-width: 250px;
+    z-index: 1;
+    text-align: left;
+}
+
+#p2content li {
+    display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#p2content li:hover {
+    background-color: lightblue;
+    width: 150px;
+    min-width: 250px;
+    margin-left: -32px;
+    z-index: -1;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#div4:hover #p2content {
+    display: block;
+    right: -30px;
+    width: fit-content;
+}
+
+#p2:hover+#div4 {
+    display: flex;
+    width: fit-content;
+    list-style: none;
+    background-color: white;
+    position: absolute;
+    border: 1px solid black;
+    top: 29px;
+    right: 70px;
+    z-index: 1;
+}
+
+// first section
+#zoho3txt {
+    position: relative;
+    top: -300px;
+    left: 67px;
+    text-align: center;
+}
+
+#main1 {
+    background-color: #E0F2FF;
+    height: 1150px;
+}
+
+#dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#solutions {
+    font-size: 17px;
+}
+
+#solutionscontent {
+    display: none;
+    list-style: none;
+    background-color: white;
+    position: absolute;
+    border-radius: 3px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border: none;
+    min-width: 250px;
+    z-index: 1;
+    text-align: left;
+}
+
+#solutionscontent li {
+    display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#solutionscontent li:hover {
+    background-color: lightblue;
+    width: 150px;
+    min-width: 250px;
+    margin-left: -32px;
+    z-index: -1;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#dropdown:hover #solutionscontent {
+    display: block;
+}
+
+// #dropdown:hover #solutions {
+//     background-color: #3e8e41;
+// }
+#projects {
+    display: none;
+}
+
+#button1 {
+    background-color: #F0483E;
+    width: 48%;
+    border: none;
+    height: 50px;
+    color: white;
+    border-radius: 3px;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    margin-bottom: 52px;
+    padding-top: 13px;
+}
+
+#button2 {
+    background-color: transparent;
+    color: #0019ff;
+    border: 2px solid #0019ff;
+    width: 48%;
+    height: 50px;
+    border-radius: 3px;
+}
+
+#zoho4img {
+    width: 80%;
+    position: relative;
+    left: 130px;
+    top: -200px;
+}
+
+#zoho5img {
+    display: none;
+}
+
+@media (max-width:700px) {
+    #div5 {
+        display: none !important;
+    }
+    #projects {
+        display: block;
+        text-align: center;
+    }
+    #section3 {
+        flex-direction: column !important;
+    }
+    #button2 {
+        display: none !important;
+    }
+    #zoho3img {
+        display: none !important;
+    }
+    #h1st {
+        font-size: 50px !important;
+    }
+    #zoho4img {
+        display: none !important;
+    }
+    #zoho5img {
+        display: block !important;
+        width: 70% !important;
+        position: relative !important;
+        // left: 30px;
+    }
+    #zoho3txt {
+        display: none;
+    }
+    #trust {
+        margin-top: 250px !important;
+        font-weight: 500;
+    }
+}
+
+// second section
+#zoho7 {
+    display: none;
+}
+
+#customers {
+    text-decoration: none;
+    color: #03A9F5;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+@media (max-width:700px) {
+    #zoho6 {
+        display: none;
+    }
+    #zoho7 {
+        display: block;
+    }
+}
+
+// third section
+#productive {
+    width: 80%;
+    background-color: #F6FBFF;
+}
+
+#zoho8 {
+    width: 300px;
+    height: 400px;
+}
+
+#stay {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#plan {
+    margin-left: 50px;
+}
+
+#learn {
+    margin-left: 50px;
+    color: #03A9F5;
+    cursor: pointer;
+}
+
+@media (max-width:700px) {
+    #productive {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    #zoho8 {
+        width: 100%;
+    }
+    #prodiv1 {
+        width: 100% !important;
+    }
+    #stay {
+        margin-left: 0;
+    }
+    #plan {
+        margin-left: 0;
+    }
+    #learn {
+        margin-left: 0;
+    }
+}
+
+// fourth section
+//nill
+//fifth section
+// .nav-tabs .nav-item {
+//     width: 24%;
+//     text-align: center;
+// }
+// .nav-tabs .nav-item .nav-link {
+//     width: 100%;
+// }
+// .nav-tabs .nav-item .active {
+//     // border-bottom: 3px solid white;
+//     // border-left: none;
+//     // border-right: none;
+//     // border-top: none;
+//     border-radius: 50px;
+//     width: 100%;
+//     background-color: #E5F4FF;
+//     color: #03A9F5;
+// }
+.nav .nav-item .active {
+    background-color: #E0F2FF !important;
+    min-width: fit-content !important;
+    color: #030b4d !important;
+    border-radius: 30px;
+}
+
+.nav-item {
+    color: black !important;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#pills1 {
+    width: 80%;
+    display: flex;
+}
+
+@media (max-width:700px) {
+    #pills1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+// sixth section
+#intuitive {
+    background-color: #000000;
+    height: 1000px;
+}
+
+// @media (prefers-reduced-motion: no-preference) {
+//     #intuitive {
+//       animation: wipe-enter 1s infinite;
+//     }
+//   }
+#intuitive:hover {
+    animation-iteration-count: infinite;
+    animation-name: intuitive;
+    animation: bounce;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+
+#dark1 {
+    width: 80%;
+    position: absolute;
+    height: 600px;
+}
+
+#dark2 {
+    position: relative;
+    bottom: 80px;
+    left: 250px;
+    width: 40%;
+}
+
+@media (max-width:700px) {
+    #intuitive {
+        height: 570px !important;
+    }
+    #dark1 {
+        width: 90%;
+        height: 25%;
+        margin-top: -100px;
+    }
+    #dark2 {
+        display: none !important;
+    }
+}
+
+// seventh section
+#integrate {
+    background-image: url(intgrate.png);
+    background-color: #ECF4FA;
+    height: 100%;
+    min-height: fit-content;
+}
+
+#integrate>h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#integrate>h6 {
+    line-height: 25px;
+    font-size: 17px;
+}
+
+#intdiv1 {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    position: relative;
+    left: 1200px;
+    bottom: -130px;
+}
+
+#intdiv1:hover {
+    animation-iteration-count: infinite;
+    animation-name: intuitive;
+    animation: rubberBand;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+#intdiv2 {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    position: relative;
+    top: 100px;
+    left: 850px;
+}
+
+#intdiv2:hover {
+    animation-iteration-count: infinite;
+    animation-name: intuitive;
+    animation: rubberBand;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+#intdiv3 {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    position: relative;
+    top: 20px;
+    left: 450px;
+}
+
+#intdiv3:hover {
+    animation-iteration-count: infinite;
+    animation-name: intuitive;
+    animation: rubberBand;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+#intdiv4 {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    position: relative;
+    top: -10px;
+    left: 50px;
+}
+
+#intdiv4:hover {
+    animation-iteration-count: infinite;
+    animation-name: intuitive;
+    animation: rubberBand;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+#intdiv5 {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    position: relative;
+    top: -20px;
+    left: 1150px;
+}
+
+#intdiv5:hover {
+    animation-iteration-count: infinite;
+    animation-name: intuitive;
+    animation: rubberBand;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+#intdiv6 {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    position: relative;
+    top: -40px;
+    left: 750px;
+}
+
+#intdiv6:hover {
+    animation-iteration-count: infinite;
+    animation-name: intuitive;
+    animation: rubberBand;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+#intdiv7 {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    position: relative;
+    top: -60px;
+    left: 350px;
+}
+
+#intdiv7:hover {
+    animation-iteration-count: infinite;
+    animation-name: intuitive;
+    animation: rubberBand;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+#intdiv8 {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    position: relative;
+    top: -60px;
+    left: 0px;
+}
+
+#intdiv8:hover {
+    animation-iteration-count: infinite;
+    animation-name: intuitive;
+    animation: rubberBand;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+#grate2 {
+    display: none;
+}
+
+@media (max-width:700px) {
+    #integrate {
+        background-color: #ECF4FA !important;
+        background-image: none !important;
+    }
+    #grate {
+        display: none !important;
+    }
+    #grate2 {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+// eight section
+#success {
+    background-color: #077BD4;
+    margin-top: 1200px;
+    height: 900px;
+    position: absolute;
+}
+
+#card1 {
+    width: 450px;
+    height: 240px;
+    background-color: white;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    position: relative;
+    left: 130px;
+}
+
+#cardimg {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    position: relative;
+    bottom: 160px;
+    right: 220px;
+}
+
+#card1:hover {
+    animation-iteration-count: infinite;
+    animation-name: intuitive;
+    animation: rubberBand;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+#card2 {
+    width: 450px;
+    height: 240px;
+    background-color: white;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+}
+
+#card2:hover {
+    animation-iteration-count: infinite;
+    animation-name: intuitive;
+    animation: rubberBand;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+#card3 {
+    display: none;
+}
+
+#card3:hover {
+    animation-iteration-count: infinite;
+    animation-name: intuitive;
+    animation: bounce;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+@media (max-width:700px) {
+    #success {
+        margin-top: 700px;
+        width: 100%;
+        height: fit-content !important;
+        flex-direction: column;
+    }
+    #suc2 {
+        text-align: center !important;
+        width: 100% !important;
+    }
+    #suc1 {
+        width: 100% !important;
+    }
+    #card1 {
+        display: none !important;
+    }
+    #card2 {
+        display: none !important;
+    }
+    #card3 {
+        display: grid;
+        width: 100%;
+        height: 240px;
+        background-color: white;
+        display: flex !important;
+        align-items: center !important;
+        flex-direction: column !important;
+    }
+}
+
+// ninth section
+#rate1 {
+    position: relative;
+    top: 75px;
+    width: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#rate2 {
+    position: relative;
+    bottom: 95px;
+    left: 230px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: fit-content;
+}
+
+#rate3 {
+    position: relative;
+    bottom: 80px;
+    left: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: fit-content;
+}
+
+#rate4 {
+    position: relative;
+    bottom: 250px;
+    left: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: fit-content;
+}
+
+#rate1:hover {
+    animation-iteration-count: infinite;
+    animation-name: intuitive;
+    animation: tada;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+#rate2:hover {
+    animation-iteration-count: infinite;
+    animation-name: intuitive;
+    animation: tada;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+#rate3:hover {
+    animation-iteration-count: infinite;
+    animation-name: intuitive;
+    animation: tada;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+#rate4:hover {
+    animation-iteration-count: infinite;
+    animation-name: intuitive;
+    animation: tada;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+#img002 {
+    display: none;
+}
+
+@media (max-width:700px) {
+    #ratediv1 {
+        flex-direction: column;
+    }
+    #img001 {
+        display: none !important;
+    }
+    #img002 {
+        display: block;
+        margin-top: 180px !important;
+    }
+    #ratediv2 {
+        width: 100% !important;
+    }
+    #ratediv3 {
+        width: 100% !important;
+        padding-left: 60px;
+    }
+}
+
+// tenth section
+@media (max-width:700px) {
+    #mobile {
+        flex-direction: column !important;
+    }
+    #mobile1 {
+        width: 100% !important;
+        margin-top: 10px !important;
+    }
+}
+
+// eleventh section
+// #car1 {
+//     width: 100% !important;
+//     display: flex !important;
+//     flex-direction: column !important;
+//     justify-content: center !important;
+// }
+// #carh3 {
+//     // background-color: #f1f1f1;
+//     // height: 40px;
+//     // width: fit-content;
+//     // padding: 5px;
+//     // border-radius: 50px;
+//     // margin-left: 450px;
+// }
+#probtn {
+    background-color: #F0483E;
+    width: 300px !important;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+}
+
+@media (max-width:700px) {
+    #car1 {
+        margin-top: 300px !important;
+    }
+}
+
+//twelveth section 
+@media (max-width:700px) {
+    #features {
+        flex-direction: column !important;
+    }
+    #featurescon {
+        width: 100% !important;
+    }
+}
+
+#english {
+    height: 20px !important;
+}
+
+// chatbox
+#chat {
+    background-color: #0091ff;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chatb {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    border-radius: 3px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+@media (max-width:1280px) {
+    body {
+        width: 100% !important;
+    }
+}
+
+@import "scss/bootstrap"

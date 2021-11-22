@@ -1,0 +1,397 @@
+div {
+    display: block;
+}
+
+button:hover {
+    color: #fff!important;
+}
+
+
+/* CSS FOR MAIN CONTAINER */
+
+.main_container {
+    display: block;
+    width: 890px;
+    min-height: 520px;
+    background-color: #fff;
+    box-shadow: 0px 2px 30px #ccc6!important;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    margin-top: 2.5%;
+    overflow: hidden;
+}
+
+.aside-left {
+    width: 500px;
+    min-height: 520px;
+    height: auto;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 50px;
+    border-radius: 2px;
+    transition: all .1s ease-in-out;
+    float: left;
+    overflow-y: auto;
+    display: table-cell;
+    border-right: 2px solid #f1f1f1;
+}
+
+.zohologo {
+    /* display: block; */
+    height: 30px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.signin_head {
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    line-height: 30px;
+    transition: all .1s ease-in-out;
+}
+
+.signin_head>span {
+    font-size: 24px;
+}
+
+.name {
+    font-size: 16px;
+}
+
+.textbox {
+    display: block;
+    width: 100%;
+    height: 44px;
+    box-sizing: 2px;
+    text-indent: 12px;
+    font-size: 16px;
+    outline: none;
+    padding: 1px 12px 1px 2px;
+    transition: all .2s ease-in-out;
+    background: #f8f8f8;
+    border: 1px solid #e4e4e4;
+}
+
+.search {
+    margin-bottom: 30px;
+}
+
+input {
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-shadow: none;
+    text-align: start;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+}
+
+.blue {
+    box-shadow: 0px 2px 2px #fff;
+    background-color: #159aff!important;
+    color: #fff!important;
+}
+
+.btn {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    height: 44px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    margin: auto;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    transition: all .2s ease-in-out;
+}
+
+button {
+    appearance: auto;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 1px 6px 1px 6px;
+}
+
+.forgot_password {
+    color: #0091ff;
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.forgot_password:hover {
+    color: #0091ff;
+}
+
+.line {
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 2px;
+    border-radius: 1px;
+    margin-bottom: 20px;
+}
+
+
+/* SIGN IN USING SECTION */
+
+.signin_text {
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.icon_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 35px;
+    width: 35px;
+}
+
+.icon {
+    height: 18px;
+    width: 18px;
+}
+
+.google-icon_div {
+    background-color: #fff;
+    box-shadow: 0px 0pc 2px #00000012, 0px 2px 2px #00000024;
+}
+
+.microsoft-icon_div {
+    background-color: #2f2f2f;
+}
+
+.linkedin-icon_div {
+    background-color: #0288d1;
+}
+
+.facebook-icon_div {
+    background-color: #039be5;
+}
+
+.twitter-icon_div {
+    background-color: #03a9f4;
+}
+
+.more-icon_div {
+    background-color: #f1f1f1;
+}
+
+
+/* CSS FOR ASIDE RIGHT */
+
+.aside-right {
+    width: 390px;
+    height: auto;
+    float: right;
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: #fff;
+    display: table-cell;
+    overflow: hidden;
+}
+
+.dot {
+    margin-left: 5px;
+    display: inline-block;
+    background: #d1ebff;
+    width: 24px;
+    height: 4px;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+.signuplink {
+    cursor: pointer;
+    width: 100%;
+    display: inline-block;
+    margin: 30px auto;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+}
+
+.signuplink>a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #159aff;
+}
+
+
+/* CSS FOR MEDIA QUERY */
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-family: 'ZohoPuvi', Georgia;
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    }
+    .bg {
+        display: none;
+    }
+    .signin_head {
+        margin-bottom: 30px;
+    }
+    .aside-left {
+        background: none;
+        width: auto;
+        padding: 0px 30px 0px 30px;
+        height: 100%;
+        border-right: none;
+    }
+    .aside-right {
+        display: none;
+    }
+    .main_container {
+        width: 100%;
+        box-shadow: none;
+        margin: 0px auto;
+        position: relative;
+        z-index: 1;
+        margin-top: 40px;
+        height: auto;
+        overflow: hidden;
+    }
+    .line {
+        display: none;
+    }
+    .textbox {
+        transition: unset;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid #f4f6f8;
+        text-indent: 0px;
+        border-radius: 0px;
+    }
+    .btn {
+        margin-top: 10px;
+        border-radius: 4px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    body {
+        font-family: 'ZohoPuvi', Georgia;
+        background: url('../img/svg/bg.svg') no-repeat center center fixed;
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    }
+    .main_container {
+        width: 520px;
+        box-shadow: none;
+        margin: 0px auto;
+        position: relative;
+        z-index: 1;
+        margin-top: 5%;
+        overflow: hidden;
+    }
+    .aside-left {
+        width: 100%;
+        border-right: none;
+    }
+    .aside-right {
+        display: none;
+    }
+    .textbox {
+        transition: unset;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid #f4f6f8;
+        text-indent: 0px;
+        border-radius: 0px;
+    }
+    .btn {
+        margin-top: 10px;
+        border-radius: 4px;
+    }
+    .line {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .aside-left {
+        width: 100%;
+        padding: 0px 30px;
+        height: auto;
+        border-right: none;
+    }
+}
+
+
+/* wole corrected */
+
+#biometrics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#biometricsimg {
+    width: 80%;
+    height: 70%;
+    margin-top: 50px;
+}
+
+#learnmore {
+    display: block;
+    height: 36px;
+    width: fit-content;
+    max-width: 160px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #ecf7fe;
+    color: #0091ff;
+    font-weight: 600;
+    border-radius: 18px;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'ZohoPuvi', Georgia;
+}
+
+#a1 {
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+}

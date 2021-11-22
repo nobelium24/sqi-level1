@@ -1,0 +1,210 @@
+#zoho1 {
+    height: 50px;
+    width: 100%;
+}
+
+#pills-tab{
+    background-color: #1F1816;
+    height: 100vh;
+}
+
+@media (max-width:700px) {
+    #pills-tab {
+        flex-direction: row !important;
+        height: 60px !important;
+        /* width: 100% !important; */
+        min-width: fit-content !important;
+    }
+
+    #zoho1 {
+        display: none !important;
+    }
+}
+
+#pills-tab #li2 .active {
+    background-color: #1F1816 !important;
+    min-width: fit-content !important;
+    color: #FF580E !important;
+    border: 0 !important;
+ }
+
+ #pills-tab #li2 .active:hover {
+     border: 1px solid #1F1816 !important;
+ }
+ 
+ #li2 {
+     color: black;
+     font-weight: bold;
+ }
+
+
+ /* home */
+
+ #firstnav {
+     background-color: #F3F3F5 !important;
+ }
+
+ #img1 {
+     width: 20px;
+     height: 20px;
+     border-radius: 100%;
+ }
+
+ #infdiv {
+    width: 30%; 
+    height: 50px;
+     border-radius: 5px !important;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+   #bpsection{
+     margin-bottom: 20px;
+   }
+
+ @media (max-width:700px) {
+     #nav3 {
+         flex-direction: column !important;
+     }
+
+     #infdiv {
+         width: 100% !important;
+         margin-top: 5px !important;
+         border: 1px solid lightgray !important;
+         box-shadow: 0 0 0 0 !important;
+     }
+
+    #bpsection {
+        flex-direction: column !important;
+    }
+
+    #bps1 {
+        width: 100% !important;
+        margin-bottom: 10px !important;
+    }
+ }
+
+ /* feed */
+ #input1 {
+     width: 75%;
+     margin-left: 10px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ #ul2 {
+     width: 60%;
+     display: flex;
+     align-items: center;
+ }
+
+ #ul2 #li1 .active {
+    background-color: white !important;
+    width: 100%;
+    min-width: fit-content !important;
+    color: black !important;
+    border-bottom: 1px solid #FF580E !important;
+    font-weight: bolder;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+ }
+
+ #li1 {
+     color: black !important;
+     width: 33% !important;
+ }
+
+ #offline {
+     width: 80% ;
+     height: 300px;
+ }
+
+ /* calender */
+
+ #cal2 {
+     width: 50px;
+     height: 50px;
+ }
+
+ #cal2:hover {
+     border: 1px solid transparent;
+     border-radius: 100%;
+     background-color: #FF580E;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ #activity1 {
+     background-color: #FF580E;
+     width: fit-content;
+     padding-left: 8px;
+     padding-right: 8px;
+     height: 30px;
+     border-radius: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     padding-top: 13px;
+ }
+
+ #cal3 {
+     width: 14.29%;
+     height: 140px;
+     border: 1px solid lightgray;
+ }
+
+ #input2 {
+    width: 75%;
+    margin-left: 10px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #FF580E;
+    outline: none;
+}
+
+#input2:focus {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #FF580E;
+    /* box-shadow: 0 0 0 0 ; */
+    outline: none;
+}
+
+/* project */
+
+#project2 {
+    overflow-x: scroll;
+}
+
+#project1 {
+    width: 30%;
+    min-width: 30% !important;
+    background-color: #DFE6E9;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    height: 470px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#task3 {
+    width: 80%;
+    height: 70%;
+}
+
+#task4 {
+    width: fit-content;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 25px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
